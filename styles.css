@@ -1,0 +1,112 @@
+/* Imposta lo sfondo blu come nell'immagine */
+body {
+    background-color: #97C1DF;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+/* Stile per i porti */
+.ports {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.port {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.port.active {
+    color: #1B4965;
+    text-decoration: underline;
+}
+
+/* Stile per i giorni della settimana */
+.days {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.day {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.day.active {
+    color: #1B4965;
+    text-decoration: underline;
+}
+
+/* Layout per la tabella degli orari */
+.schedule {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.company {
+    background-color: #F3F3F3;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.company h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.toremar h2 {
+    color: #C7007E;
+}
+
+.moby h2 {
+    color: #00AEEF;
+}
+
+.blunavy h2 {
+    color: #002776;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: bold;
+    text-align: center;
+}
